@@ -12,6 +12,12 @@ Repozytorium "Backend-weatherapp" to prosty backend aplikacji weatherapp, dostę
 `/weather`
 Endpoint zwraca dane pogodowe dla podanych współrzędnych geograficznych.
 
+## Testy
+
+* obliczanie generowanej energii słonecznej
+* obsługę nieprawidłowych współrzędnych geograficznych
+* sprawdzanie kompletności danych JSON zwracanych przez endpoint
+
 ## Użyte technologie
 
 * **Java**
