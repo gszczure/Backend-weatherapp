@@ -1,6 +1,6 @@
 # Backend-weatherapp
 
-Repozytorium "Backend-weatherapp" to prosty backend aplikacji weatherapp, dostępny pod adresem https://frontend-weatherapp.onrender.com. Udostępnia dane pogodowe i oblicza generowaną energię słoneczną na podstawie czasu nasłonecznienia. Serwer pobiera dane z API Open Meteo i udostępnia je w formacie JSON.
+Repozytorium "Backend-weatherapp" to prosty backend aplikacji weatherapp, dostępny pod adresem https://frontend-weatherapp.onrender.com. Udostępnia on dane pogodowe i oblicza generowaną energię słoneczną na podstawie czasu nasłonecznienia. Backend pobiera dane z API Open Meteo i udostępnia je w formacie JSON.
 
 ## Kod źródłowy
 
