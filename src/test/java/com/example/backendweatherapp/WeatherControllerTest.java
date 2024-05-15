@@ -18,7 +18,7 @@ public class WeatherControllerTest {
         // Test kiedy ustawiamy susnshineDuration na 0
         double result1 = controller.calculateGeneratedEnergy(0);
         // Wynik powienien byc 0 kiedy sunshineDuration = 0
-        // installedPower * sunshineDuration * panelEfficiency powinno sie rownać 0
+        // installedPower * sunshineDuration * panelEfficiency
         assertEquals(0, result1);
 
         // Test kiedy ustawiamy susnhineduration na 1 godzinę czyli 3600 sek.
