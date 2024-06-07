@@ -5,6 +5,10 @@ Repozytorium "Backend-weatherapp" to prosty backend aplikacji weatherapp, dostę
 ## Kod źródłowy
 
 * **WeatherController**: Główny kontroler, który obsługuje żądania do endpointu `/weather`.
+* **GlobalExceptionHandler**: Ten kod to obsługa wyjątków w aplikacji.
+* **WeatherResponse**: Klasa ta zapewnia strukturę danych do przechowywania informacji o prognozie pogody oraz generowanej energii.
+* **WeatherService**: Jest odpowiedzialna za pobieranie danych pogodowych z zewnętrznego API oraz obliczanie generowanej energii na podstawie tych danych.
+
 * **calculateGeneratedEnergy(double sunshineDuration)**: Metoda obliczająca generowaną energię słoneczną na podstawie czasu nasłonecznienia(sunshineDuration). Użyłem prostego wzoru, nie daje on dokładnych wyników ale na potrzeby tego projektu zdecydowanie wystarcza.  
 wygenerowana energia[kWh] =
 moc instalacji[kW] x czas ekspozycji[h] x efektywność paneli
