@@ -28,6 +28,10 @@ public class WeatherController {
             @RequestParam("latitude") @NotNull @Min(-90) @Max(90) Double latitude,
             @RequestParam("longitude") @NotNull @Min(-180) @Max(180) Double longitude) throws JSONException {
 
+        if (latitude == null || longitude == null) {
+            return ResponseEntity.badRequest().build();
+        }
+
         List<WeatherResponse> weatherData = weatherService.getWeatherData(latitude, longitude);
         return ResponseEntity.ok(weatherData);
     }

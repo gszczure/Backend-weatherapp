@@ -46,7 +46,7 @@ public class WeatherService {
         return results;
     }
 
-    private double calculateGeneratedEnergy(double sunshineDuration) {
+    public double calculateGeneratedEnergy(double sunshineDuration) {
         double sunshineDurationHours = sunshineDuration / 3600; // seconds to hours
         return INSTALLED_POWER * sunshineDurationHours * PANEL_EFFICIENCY;
     }
