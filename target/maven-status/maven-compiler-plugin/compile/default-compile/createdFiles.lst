@@ -1,2 +1,5 @@
-com/example/backendweatherapp/controller/WeatherController.class
+com/example/backendweatherapp/service/WeatherService.class
+com/example/backendweatherapp/exception/GlobalExceptionHandler.class
 com/example/backendweatherapp/WeatherApplication.class
+com/example/backendweatherapp/controller/WeatherController.class
+com/example/backendweatherapp/model/WeatherResponse.class
