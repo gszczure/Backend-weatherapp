@@ -10,15 +10,3 @@ COPY mvnw.cmd .
 COPY .mvn ./.mvn
 COPY pom.xml .
 COPY src ./src
-
-# Pobierz zależności i zbuduj aplikację
-RUN ./mvnw package -DskipTests
-
-# Ustal zmienną środowiskową dla pliku jar
-ENV JAR_FILE=target/weather-app-0.0.1-SNAPSHOT.jar
-
-# Skopiuj zbudowany plik jar do katalogu roboczego
-COPY ${JAR_FILE} app.jar
-
-# Określ komendę startową kontenera
-ENTRYPOINT ["java", "-jar", "/app/app.jar"]
