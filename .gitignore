@@ -1,4 +1,4 @@
-HELP.md
+# IDE
 ### STS ###
 .apt_generated
 .classpath
@@ -26,3 +26,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Logs
+*.log
+
+# Compiled Java classes
+*.class
+
+# Maven
+target/
