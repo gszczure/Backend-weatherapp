@@ -20,7 +20,6 @@ Endpoint zwraca dane pogodowe dla podanych współrzędnych geograficznych.
 
 * obliczanie generowanej energii słonecznej
 * obsługę nieprawidłowych współrzędnych geograficznych
-* sprawdzanie kompletności danych JSON zwracanych przez endpoint
 
 ## Użyte technologie
 
