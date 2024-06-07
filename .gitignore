@@ -34,4 +34,5 @@ build/
 *.class
 
 # Maven
-target/
+#target/
+# muesze dodac target do githuba bo nie uemie uzywac dockera
