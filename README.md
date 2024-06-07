@@ -24,3 +24,8 @@ Endpoint zwraca dane pogodowe dla podanych współrzędnych geograficznych.
 * **Spring Boot**
 * **Maven**
 * **JSON**
+
+## Uwagi
+
+* Wiiem że nie jest dobrą praktyką umieszczanie w repozytorium GitHobowym JAR-a ale nie potrafię jeszcze go zbudować w Dockerfile. Cały czas nad tym pracuje
+
