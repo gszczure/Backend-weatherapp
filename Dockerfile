@@ -1,8 +1,12 @@
-FROM openjdk:17-jdk-alpine
+# Użyj obrazu Javy jako obrazu bazowego
+FROM bellsoft/liberica-openjdk-alpine:17
 
+# Ustaw katalog roboczy w kontenerze
 WORKDIR /app
 
-COPY target/weather-app-0.0.1-SNAPSHOT.jar /app/weather-app.jar
-
-CMD ["java", "-jar", "weather-app.jar"]
-
+# Skopiuj plik mvnw, plik pom.xml oraz katalog src do katalogu roboczego
+COPY mvnw .
+COPY mvnw.cmd .
+COPY .mvn ./.mvn
+COPY pom.xml .
+COPY src ./src
