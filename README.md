@@ -5,7 +5,11 @@ Repozytorium "Backend-weatherapp" to prosty backend aplikacji weatherapp, dostę
 ## Kod źródłowy
 
 * **WeatherController**: Główny kontroler, który obsługuje żądania do endpointu `/weather`.
-* **calculateGeneratedEnergy(double sunshineDuration)**: Metoda obliczająca generowaną energię słoneczną na podstawie czasu nasłonecznienia(sunshineDuration).
+* **calculateGeneratedEnergy(double sunshineDuration)**: Metoda obliczająca generowaną energię słoneczną na podstawie czasu nasłonecznienia(sunshineDuration). Użyłem prostego wzoru, nie daje on dokładnych wyników ale na potrzeby tego projektu zdecydowanie wystarcza.  
+wygenerowana energia[kWh] =
+moc instalacji[kW] x czas ekspozycji[h] x efektywność paneli
+
+
 * **RestTemplate**: Klasa używana do wykonywania zapytań HTTP do API Open Meteo.
 
 ## Endpointy
@@ -27,5 +31,5 @@ Endpoint zwraca dane pogodowe dla podanych współrzędnych geograficznych.
 
 ## Uwagi
 
-* Wiiem że nie jest dobrą praktyką umieszczanie w repozytorium GitHobowym JAR-a ale nie potrafię jeszcze go zbudować w Dockerfile. Cały czas nad tym pracuje
+* Wiiem, że nie jest dobrą praktyką umieszczanie w repozytorium GitHobowym JAR-a ale nie potrafię jeszcze go zbudować w Dockerfile. Cały czas nad tym pracuje.
 
