@@ -34,5 +34,5 @@ Endpoint zwraca dane pogodowe dla podanych współrzędnych geograficznych.
 
 ## Uwagi
 
-* Wiiem, że nie jest dobrą praktyką umieszczanie w repozytorium GitHobowym JAR-a ale nie potrafię jeszcze go zbudować w Dockerfile. Cały czas nad tym pracuje.
+* Wiem, że nie jest dobrą praktyką umieszczanie w repozytorium GitHobowym JAR-a ale nie potrafię jeszcze go zbudować w Dockerfile. Cały czas nad tym pracuje.
 * Aby dane do apliakcji zostały załadowane trzeba chwilę poczekać.
